@@ -19,5 +19,5 @@ http://localhost:8080/v1/fibonacci/6
 ## Next versions
 For future versions one improvement is to use a cache, example: if you try to get the result for large number it requires to compute all the results every time the endpoint is hited, the solution is to use a cache and avoid compute all the results.
 
-##Health Check
+## Health Check
 http://localhost:8080/actuator/health
